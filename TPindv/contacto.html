@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <meta name="description" content="Esta es una página de un ejercicio individual de UADE en la materia de diseño y desarrollo web">
+    <meta name="keywords" content="web, diseño, desarrollo, UADE, costa Argentina, en fin">
+    <meta property="og:image" content="img/phi.png" >
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="estilos.css" />
+    <title>contacto | Diseño y desarrollo web</title>
+  </head>
+  <body>
+    <header>
+      <div class="contenedor">
+        <div id="logo">
+          <h1> <span class="marcado">Diseño</span> y Desarrollo Web</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="somos.html">Somos</a></li>
+            <li><a href="ideas.html">Ideas</a></li>
+            <li><a href="contacto.html" class="marcado">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section id="vidriera_contacto">
+      <div class="contenedor">
+        <h1>CONTACTO</h1>
+       
+      </div>
+    </section> 
+   <section>
+    <div class="contenedor">
+      <article class="texto_somos">
+        <h3>Ubicación</h3>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat velit officiis nulla esse illo quasi, consequuntur sapiente quae dolores ipsam magni omnis? Ipsa aliquam ipsum enim minima at eum cum?
+        </p>
+        <p class="destacado">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3181.5623462004896!2d-56.88808114949514!3d-37.115534179786096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959c9d228e112bdb%3A0x44a3c9c5a9136bd1!2sUADE%20Campus%20Costa%20Argentina!5e0!3m2!1ses!2sar!4v1665706518411!5m2!1ses!2sar" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </p>
+      </article>
+      <aside class="cuadrito">
+        <h3>Contactanos</h3>
+        <br>
+        <form action="envio.php" method="post" class="contacto">
+          <div>
+            <label for="nombre">Nombre y Apellido</label>
+            <input type="text" id="nombre" placeholder="Nombre completo">
+          </div>
+          <div>
+            <label for="email">e-mail</label>
+            <input type="email" id="email" placeholder=" E Mail">
+          </div>
+          <div>
+            <label for="msn">mensaje</label>
+            <textarea name="mensaje" id="msn" cols="30" rows="10" placeholder="Mensaje"></textarea>
+            <button type="submit" class="btn_news">Enviar</button>
+          </div>
+        </form>
+      </aside>
+      
+    </div>
+   </section>
+    <footer>
+      <p>Diseño y Desarrollo Web copyright &copy; 2022</p>
+    </footer>
+  </body>
+</html>
+
+
