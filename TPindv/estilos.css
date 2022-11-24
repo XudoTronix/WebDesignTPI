@@ -3,40 +3,78 @@
     padding: 0;
 }
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
     padding: 0;
     margin: 0;
-    background-color: #53D5E0;
-   position: relative;
-   min-height: 100vh;
-   padding-bottom: 160px;
+    background-color: #A3B4B5;
+    position: relative;
+    padding-bottom: 160px;
+    height: 50vh;
 }
 /* ordenes generales */
 .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
     width: 80%;
     margin: auto;
     overflow: hidden;
 }
+
+.re_contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
 .btn_news{
     height: 32px;
-    background-color: #D982B3;
+    background-color: #A3B4B5;
     border: 0;
     padding: 0 20px;
     color: aliceblue;
 }
 hr{
     height: 2px;
-    background-color: #D982B3;
+    background-color: #A3B4B5;
+}
+
+.re_contenedor_box {
+    margin: auto;
+    text-align: center;
+    width: 50%;
+}
+
+.re_contenedor_box img {
+    border-radius: 5px;
+    max-width: 100%;
+    width: 300px;
+    max-height: 100%;
+    height: 145px;
+    object-fit: cover;
+    object-position: center;
+}
+
+#ideas p{
+    font-size: 13px;
+    padding: 0 20px;
+}
+#ideas h2{
+    font-size: 25px;
+    text-align: left;
+    color: #01393B;
+    margin-bottom: 10px;
 }
 
 
 /* header */
 header{
-    background-color: #288B94;
+    background-color: #A3B4B5;
     color: aliceblue;
-   padding-top: 30px;
-   min-height: 70px;
-   border-bottom:#D982B3 2px solid;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom:#05E0E8 2px solid;
 }
 header a{
     color: aliceblue;
@@ -57,17 +95,17 @@ header nav{
     margin-top: 10px;
 }
 header a:hover{
-    color: #E0CB3D;
+    color: #05E0E8;
     font-weight: 400;
 }
 header .marcado{
-    color: #D982B3;
+    color: #03969C;
     font-weight: 900;
 }
 /* Vidriera */
 #vidriera{
     min-height: 400px;
-    background-image: url(img/vidriera_dark.jpg);
+    background-image: url(img/rsz_2aquarium-in-night-time.jpg);
     background-size: cover;
     background-position: center;
     color: aliceblue;
@@ -85,7 +123,7 @@ margin-bottom: 15px;
 /* Newslette */
 #newsletter{
     padding: 15px;
-    background-color: #288B94;
+    background-color: #A3B4B5;
     color: aliceblue;
 }
 #newsletter h3{
@@ -120,23 +158,60 @@ margin-bottom: 15px;
 #boxes h2{
     font-size: 25px;
     text-align: left;
-    color: #288B94;
+    color: #01393B;
     margin-bottom: 10px;
 }
 
 /* footer */
 footer{
-    padding: 20px;
-    margin-top: 20px;
-    background-color: #D982B3;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 50px;
     text-align: center;
-    line-height: 100px;
-    color: aliceblue;
+    line-height: 20px;
     font-size: 15px;
-    min-height: 100px;
-    position: absolute;
-    bottom: 0;
     width: 100%;
+    justify-content: space-around;
+    border: black solid 1px;
+    background-color: #02686B;
+}
+
+.footer_izq{
+    margin: auto;
+    max-width: 70%;
+    color: #01393B;
+    text-align: left;
+}
+.img_colores img{
+    margin: auto;
+    width: 200px;
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.footer_centro {
+    margin: auto;
+}
+
+
+.footer_centro h2{
+    text-align: center;
+    color: #01393B; 
+}
+.footer_centro img{
+    padding: 10px;
+    max-width: 50px;
+}
+
+.logo_uade {
+    margin: auto;
+}
+
+.logo_uade img{
+    width: 125px;
+    float: right;
+    padding: 25px 15px;
 }
 
 /* somos */
@@ -282,9 +357,4 @@ aside.cuadrito h3{
 /* Contacto query */
 #vidriera_contacto h1{
     font-size: 60px;
-}
-
-}
-
-
-
+}}
